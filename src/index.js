@@ -5,7 +5,7 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import {applyPolyfills, defineCustomElements} from 'h8k-components/loader';
 
-const ARTICLES = [
+const articles = [
   {
     title: "A message to our customers",
     upvotes: 12,
@@ -18,7 +18,7 @@ const ARTICLES = [
   },
   {
     title: "Artificial Mountains",
-    upvotes: 2,
+    upvotes: 200,
     date: "2019-11-22",
   },
   {
@@ -38,7 +38,7 @@ const ARTICLES = [
   },
   {
     title: "Simple text editor has 15k monthly users",
-    upvotes: 7,
+    upvotes: 83,
     date: "2010-12-31",
   },
 ];
